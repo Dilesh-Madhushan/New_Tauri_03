@@ -15,7 +15,7 @@ export default function HomePage() {
   return (
     <main
       style={{
-        backgroundImage: "url('https://us.123rf.com/450wm/brita123/brita1232312/brita123231200520/220947910-butterflies-in-the-springtime-meadows-green-garden.jpg?ver=6')",
+        backgroundImage: "url('https://img.freepik.com/premium-photo/background-multicolored-paint-water-generative-ai_170984-5048.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
