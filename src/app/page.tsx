@@ -33,6 +33,11 @@ export default function HomePage() {
       <h1>Welcome to MyProject</h1>
       <p>This is a Tauri + Next.js app.</p>
       <p>Dilesh Madhushan</p>
+      <p>Dilesh Madhushan</p>
+      <p>Dilesh Madhushan</p>
+      <p>Dilesh Madhushan</p>
+      <p>Dilesh Madhushan</p>
+      
     </main>
   );
 }
