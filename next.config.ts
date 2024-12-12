@@ -1,13 +1,10 @@
 const nextConfig = {
-  experimental: {
-    appDir: true, // Keep this if you're using the app directory feature
-  },
-  output: 'export', // Add this to enable static export
-  exportTrailingSlash: true, // Ensure URLs have trailing slashes
+  trailingSlash: true, // Ensure this is set for static export
+  output: 'export', // Enable static export
   images: {
-    unoptimized: true, // Optional: to avoid issues with Next.js Image optimization during export
+    unoptimized: true, // Optional: to avoid issues with Image optimization during export
   },
-  // Other Next.js settings...
+  // Other configurations...
 };
 
 export default nextConfig;
