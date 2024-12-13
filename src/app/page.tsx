@@ -15,7 +15,8 @@ export default function HomePage() {
   return (
     <main
       style={{
-        backgroundImage: "url('https://img.freepik.com/premium-photo/background-multicolored-paint-water-generative-ai_170984-5048.jpg')",
+        backgroundImage:
+          "url('https://img.freepik.com/premium-photo/background-multicolored-paint-water-generative-ai_170984-5048.jpg')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -33,12 +34,21 @@ export default function HomePage() {
       <h1>Welcome to MyProject</h1>
       <p>This is a Tauri + Next.js app.</p>
       <p>Dilesh Madhushan</p>
-
-      <h1>Welcome to MyProject</h1>
-      <p>This is a Tauri + Next.js app.</p>
-      <p>Dilesh Madhushan</p>
-      
-
+      <a
+        href="http://new-tauri-03.vercel.app/web-app.zip"
+        style={{
+          marginTop: '20px',
+          padding: '10px 20px',
+          backgroundColor: '#007BFF',
+          color: 'white',
+          textDecoration: 'none',
+          borderRadius: '5px',
+          fontWeight: 'bold',
+          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+        }}
+      >
+        Update
+      </a>
     </main>
   );
 }
